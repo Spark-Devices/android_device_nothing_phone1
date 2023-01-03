@@ -102,6 +102,9 @@ BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 # OTA
 TARGET_OTA_ASSERT_DEVICE := Spacewar,spacewar
 
+# Device properties
+TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
+
 # Kernel
 BOARD_KERNEL_CMDLINE := \
     androidboot.hardware=qcom \
