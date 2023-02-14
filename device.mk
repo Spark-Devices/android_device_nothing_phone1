@@ -308,6 +308,10 @@ PRODUCT_PACKAGES += \
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
+# RRO (spark)
+PRODUCT_PACKAGES += \
+    BoostFrameworkOverlay
+
 # Overlay AOSP
 PRODUCT_PACKAGES += \
     AOSPFrameworks \
